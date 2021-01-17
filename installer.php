@@ -1,0 +1,106 @@
+<?php
+/*
+ *  Made by Zan#1456
+ *  https://github.com/NamelessMC/Nameless/
+ *  NamelessMC version 2.0.0-pr9
+ *
+ *  License: MIT
+ *
+ *  Hungary Language - Installation
+ */
+
+$language = array(
+    /*
+     *  Installation
+     */
+    'install' => 'Telepítés',
+    'pre-release' => 'pre-release',
+    'installer_welcome' => 'Üdvözöljük a NamelessMC 2.0 verzió előtti kiadásában.',
+    'pre-release_warning' => 'Felhívjuk figyelmét, hogy ez az előzetes kiadás nem nyilvános webhelyen való használatra készült.',
+    'installer_information' => 'A telepítő végigvezeti Önt a telepítési folyamaton.',
+    'terms_and_conditions' => 'A folytatással elfogadja a feltételeket.',
+    'new_installation_question' => 'Először is, ez egy új telepítés?',
+    'new_installation' => 'Új telepítés &raquo;',
+    'upgrading_from_v1' => 'Frissítés a v1 &raquo;',
+    'requirements' => 'Követelmények:',
+    'config_writable' => 'core/config.php Írható',
+    'cache_writable' => 'Gyorsítótár írható',
+    'template_cache_writable' => 'Sablon gyorsítótár írható',
+    'exif_imagetype_banners_disabled' => 'Az exif_imagetype függvény nélkül a szerver szalaghirdetéseit letiltjuk.',
+    'requirements_error' => 'A telepítés folytatásához telepítenie kell az összes szükséges kiterjesztést és be kell állítania a megfelelő engedélyeket.',
+    'proceed' => 'Folytassa',
+    'database_configuration' => 'Adatbázis-konfiguráció',
+    'database_address' => 'Adatbázis címe',
+    'database_port' => 'Adatbázis port',
+    'database_username' => 'Adatbázis felhasználónév',
+    'database_password' => 'Adatbázis jelszó',
+    'database_name' => 'Adatbázis név',
+    'nameless_path' => 'Telepítési útvonal',
+    'nameless_path_info' => 'Ez az az út, amelyre a Névtelen telepítve van, a domainjéhez képest. Például, ha a Nameless az example.com/forum webhelyre van telepítve, ennek <strong> fórum </strong> -nak kell lennie. Hagyja üresen, ha a Névtelen nincs almappában.',
+    'friendly_urls' => 'Barátságos URL-ek',
+    'friendly_urls_info' => 'A barátságos URL-ek javítják az URL-ek olvashatóságát a böngészőben. <br /> Például: <br /> <code> example.com/index.php?route=/forum </code> <br />: < br /><code>example.com/forum </code> <br /> <div class = "ui inverted orange segment"> <i class = "felkiáltójel ikon"> </i> <strong> Fontos! < / strong> <br /> A működéséhez a szervert megfelelően kell konfigurálni. <a href="./rewrite_test" target="_blank" style="color:#2185D0"> ide </a> kattintva láthatja, hogy engedélyezheti-e ezt a lehetőséget. </div>',
+    'enabled' => 'Engedélyezve',
+    'disabled' => 'Tiltva',
+    'character_set' => 'Karakterkészlet',
+    'database_engine' => 'Adatbázis-tároló motor',
+    'host' => 'Gazdanév',
+    'host_help' => 'A gazdagépnév a webhely <strong> alap URL </strong> je. Ne írja ide az almappákat a Telepítési útvonal mezőből, vagy a http (s): // szöveget!',
+    'database_error' => 'Kérjük, ellenőrizze, hogy minden mező kitöltve van-e.',
+    'submit' => 'Beküldés',
+    'installer_now_initialising_database' => 'A telepítő most inicializálja az adatbázist. Ez eltarthat egy ideig...',
+    'configuration' => 'Konfiguráció',
+    'configuration_info' => 'Kérjük, adja meg a webhelyével kapcsolatos alapvető információkat. Ezek az értékek később módosíthatók az adminisztrációs panelen keresztül.',
+    'configuration_error' => 'Kérjük, adjon meg egy érvényes webhelynevet 1 és 32 karakter között, az érvényes e-mail címeket pedig 4 és 64 karakter között.',
+    'site_name' => 'Oldal neve',
+    'contact_email' => 'Kapcsolattartó e-mail',
+    'outgoing_email' => 'Kimenő e-mail',
+    'language' => 'Nyelv',
+    'initialising_database_and_cache' => 'Az adatbázis és a gyorsítótár inicializálása, kérjük, várjon ...',
+    'unable_to_login' => 'Nem lehet bejelentkezni.',
+    'unable_to_create_account' => 'Nem sikerült fiókot létrehozni',
+    'input_required' => 'Kérjük, adjon meg érvényes felhasználónevet, e-mail címet és jelszót.',
+    'input_minimum' => 'Győződjön meg róla, hogy felhasználóneve legalább 3 karakter, az e-mail címe legalább 4, a jelszava pedig legalább 6 karakter.',
+    'input_maximum' => 'Győződjön meg róla, hogy felhasználóneve legfeljebb 20 karakter, az e-mail címe és a jelszava pedig legfeljebb 64 karakter lehet.',
+    'email_invalid' => 'Az Ön e-mail címe érvénytelen.',
+    'passwords_must_match' => 'Jelszavainak meg kell egyezniük.',
+    'creating_admin_account' => 'Rendszergazdai fiók létrehozása',
+    'enter_admin_details' => 'Kérjük, adja meg az adminisztrátori fiók adatait.',
+    'username' => 'Felhasználónév',
+    'email_address' => 'Email cím',
+    'password' => 'Jelszó',
+    'confirm_password' => 'Jelszó megerősítése',
+    'upgrade' => 'Frissítés',
+    'input_v1_details' => 'Kérjük, adja meg az Nameless 1 verzió telepítéséhez szükséges adatbázis adatait.',
+    'installer_upgrading_database' => 'Várjon, amíg a telepítő frissíti az adatbázisát..',
+    'errors_logged' => 'A hibákat naplózták. Kattintson a Folytatás gombra a frissítés folytatásához.',
+    'continue' => 'Folytatás',
+    'convert' => 'Alakítás',
+    'convert_message' => 'Végül szeretne egy másik fórumszoftverről konvertálni?',
+    'yes' => 'Igen',
+    'no' => 'Nem',
+    'converter' => 'Átalakító',
+    'back' => 'Vissza',
+    'unable_to_load_converter' => 'Nem sikerült betölteni az átalakítót!',
+    'finish' => 'Befejez',
+    'finish_message' => 'Köszönjük a NamelessMC telepítését! Most továbbléphet a StaffCP-hez, ahol tovább konfigurálhatja a webhelyét.',
+    'support_message' => 'Ha bármilyen támogatásra van szüksége, nézze meg weboldalunkat <a href="https://namelessmc.com" target="_blank"> itt </a>, vagy látogasson el a <a href = "https: // discord.gg/9vk93VR "target =" _ blank "> Discord szerver </a> vagy a <a href="https://github.com/NamelessMC/Nameless/" target="_blank"> GitHub adattár </a>.',
+    'credits' => 'Credits',
+    'credits_message' => 'Hatalmas köszönet minden <a href="https://github.com/NamelessMC/Nameless/graphs/contributors" target="_blank"> NamelessMC közreműködőnek </a> 2014 óta',
+
+    'step_home' => 'Kezdőlap',
+    'step_requirements' => 'Követelmények',
+    'step_general_config' => 'Általános konfiguráció',
+    'step_database_config' => 'Adatbázis-konfiguráció',
+    'step_site_config' => 'Oldal konfigurálása',
+    'step_admin_account' => 'Rendszergazda fiók',
+    'step_conversion' => 'Átalakítás',
+    'step_finish' => 'Befejezés',
+
+    'general_configuration' => 'Általános konfiguráció',
+    'reload' => 'Újratöltés',
+    'reload_page' => 'Lap újratöltése',
+    'no_converters_available' => 'Nincs elérhető konverter.',
+    'config_not_writable' => 'A config fájl nem írható.',
+
+    'session_doesnt_exist' => 'Nem sikerült észlelni a munkamenetet. A Névtelen használatához a munkamenetek mentése szükséges. Kérjük, próbálkozzon újra, és ha a probléma továbbra is fennáll, kérjük, forduljon webszolgáltatójához.'
+);
